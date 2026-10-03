@@ -1,0 +1,65 @@
+@startuml
+class User {
+    +id: int
+    +username: String
+    +password: String
+    +email: String
+    +image: String
+    +fullname: String
+    +reset_key: String
+}
+
+class Topic {
+    +id: int
+    +name: String
+    +icon: String
+    +description: String
+}
+
+class Question {
+    +id: int
+    +statement: String
+    +topic_id: int
+}
+
+class Alternative{
+    +id: int
+    +statement: String
+    +correct: boolean
+    +question_id: int
+}
+
+class Quiz{
+    +id: int
+    +statement: String??
+    +created: Datetime
+    +user_id: int
+    +points: int
+}
+
+class QuizQuestion{
+    +id: int
+    +quiz_id: int
+    +quiestion_id: int
+}
+
+class UserAnswer {
+    +id: int
+    +user_id: int
+    +quiz_id: int
+    +question_id: int
+    +alternative_id: int
+    +answered_at: Datetime
+}
+
+User "1" -- "m" Quiz
+Question "1" -- "m" QuizQuestion
+Quiz"1" -- "m" QuizQuestion
+Question "1" -- "m" Alternative
+Topic "1" -- "m" Question
+UserAnswer "m" -- "1"  User 
+UserAnswer "m" -- "1"  Quiz 
+UserAnswer "m" -- "1"  Question 
+UserAnswer "m" -- "1"  Alternative 
+
+@enduml

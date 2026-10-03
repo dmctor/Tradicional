@@ -1,0 +1,203 @@
+[
+        {
+            "id": 1,
+            "dependency_id": 12,
+            "name": "Aurelio",
+            "last_name": "Fajardo Garriga",
+            "cellphone": "968846847",
+            "rank": "Gerente",
+            "position": "Investment analyst",
+            "birthday": "06-05"
+        },
+        {
+            "id": 2,
+            "dependency_id": 16,
+            "name": "Hernán",
+            "last_name": "del Pineda",
+            "cellphone": "999550928",
+            "rank": "Asistente",
+            "position": "Health visitor",
+            "birthday": "05-11"
+        },
+        {
+            "id": 3,
+            "dependency_id": 7,
+            "name": "Marianela",
+            "last_name": "Pedro Guillén",
+            "cellphone": "914529145",
+            "rank": "Supervisor",
+            "position": "Biomedical engineer",
+            "birthday": "11-23"
+        },
+        {
+            "id": 4,
+            "dependency_id": 20,
+            "name": "Lalo",
+            "last_name": "Espada Cifuentes",
+            "cellphone": "915454812",
+            "rank": "Director",
+            "position": "Engineer, land",
+            "birthday": "05-15"
+        },
+        {
+            "id": 5,
+            "dependency_id": 9,
+            "name": "Carla",
+            "last_name": "Emperatriz Cáceres Arévalo",
+            "cellphone": "956968883",
+            "rank": "Gerente",
+            "position": "Fish farm manager",
+            "birthday": "06-26"
+        },
+        {
+            "id": 6,
+            "dependency_id": 12,
+            "name": "Martina",
+            "last_name": "Salvà",
+            "cellphone": "977779451",
+            "rank": "Asistente",
+            "position": "Youth worker",
+            "birthday": "05-05"
+        },
+        {
+            "id": 7,
+            "dependency_id": 14,
+            "name": "Teodora",
+            "last_name": "Cruz Cueto",
+            "cellphone": "943800006",
+            "rank": "Gerente",
+            "position": "Adult nurse",
+            "birthday": "01-10"
+        },
+        {
+            "id": 8,
+            "dependency_id": 12,
+            "name": "Clementina",
+            "last_name": "Borrego Palomino",
+            "cellphone": "925768238",
+            "rank": "Director",
+            "position": "Investment analyst",
+            "birthday": "01-24"
+        },
+        {
+            "id": 9,
+            "dependency_id": 19,
+            "name": "Ariel",
+            "last_name": "del Llano",
+            "cellphone": "950206363",
+            "rank": "Asistente",
+            "position": "Fish farm manager",
+            "birthday": "12-24"
+        },
+        {
+            "id": 10,
+            "dependency_id": 5,
+            "name": "Felipe",
+            "last_name": "Manrique Dueñas",
+            "cellphone": "955674872",
+            "rank": "Gerente",
+            "position": "Chartered loss adjuster",
+            "birthday": "08-11"
+        },
+        {
+            "id": 11,
+            "dependency_id": 15,
+            "name": "Herberto",
+            "last_name": "Pereira Donoso",
+            "cellphone": "977547829",
+            "rank": "Director",
+            "position": "Research officer, trade union",
+            "birthday": "08-03"
+        },
+        {
+            "id": 12,
+            "dependency_id": 20,
+            "name": "Lisandro",
+            "last_name": "de Canales",
+            "cellphone": "978852068",
+            "rank": "Gerente",
+            "position": "Child psychotherapist",
+            "birthday": "01-13"
+        },
+        {
+            "id": 13,
+            "dependency_id": 2,
+            "name": "Íngrid",
+            "last_name": "Sainz Porras",
+            "cellphone": "933479102",
+            "rank": "Asistente",
+            "position": "Television/film/video producer",
+            "birthday": "07-31"
+        },
+        {
+            "id": 14,
+            "dependency_id": 17,
+            "name": "León",
+            "last_name": "Vilar Moles",
+            "cellphone": "985435793",
+            "rank": "Gerente",
+            "position": "Charity officer",
+            "birthday": "06-04"
+        },
+        {
+            "id": 15,
+            "dependency_id": 10,
+            "name": "Octavia",
+            "last_name": "del Guzmán",
+            "cellphone": "921582692",
+            "rank": "Gerente",
+            "position": "Engineer, communications",
+            "birthday": "03-05"
+        },
+        {
+            "id": 16,
+            "dependency_id": 10,
+            "name": "Kike",
+            "last_name": "Cuevas",
+            "cellphone": "960732584",
+            "rank": "Supervisor",
+            "position": "Applications developer",
+            "birthday": "04-11"
+        },
+        {
+            "id": 17,
+            "dependency_id": 9,
+            "name": "Rosario",
+            "last_name": "Company Landa",
+            "cellphone": "998068518",
+            "rank": "Gerente",
+            "position": "Radio producer",
+            "birthday": "04-12"
+        },
+        {
+            "id": 18,
+            "dependency_id": 3,
+            "name": "Javi",
+            "last_name": "Montalbán",
+            "cellphone": "920589036",
+            "rank": "Asistente",
+            "position": "Medical illustrator",
+            "birthday": "06-14"
+        },
+        {
+            "id": 19,
+            "dependency_id": 14,
+            "name": "Omar",
+            "last_name": "Cánovas Morata",
+            "cellphone": "926685606",
+            "rank": "Director",
+            "position": "Clinical cytogeneticist",
+            "birthday": "12-01"
+        },
+        {
+            "id": 20,
+            "dependency_id": 14,
+            "name": "Clara",
+            "last_name": "Tamayo Guillen",
+            "cellphone": "943488121",
+            "rank": "Gerente",
+            "position": "Patent attorney",
+            "birthday": "03-25"
+        }
+  ]
+  

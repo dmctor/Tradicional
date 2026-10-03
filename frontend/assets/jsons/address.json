@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "address": "Av. Los Próceres 123",
+    "district": "Surco",
+    "province": "Lima",
+    "department": "Lima",
+    "sector": "Educación"
+  },
+  {
+    "id": 2,
+    "address": "Jr. Los Libertadores 456",
+    "district": "San Miguel",
+    "province": "Lima",
+    "department": "Lima",
+    "sector": "Salud"
+  },
+  {
+    "id": 3,
+    "address": "Calle La Merced 789",
+    "district": "Cercado de Arequipa",
+    "province": "Arequipa",
+    "department": "Arequipa",
+    "sector": "Comercio"
+  },
+  {
+    "id": 4,
+    "address": "Av. Primavera 321",
+    "district": "La Molina",
+    "province": "Lima",
+    "department": "Lima",
+    "sector": "Transporte"
+  },
+  {
+    "id": 5,
+    "address": "Pasaje Las Flores 101",
+    "district": "Miraflores",
+    "province": "Lima",
+    "department": "Lima",
+    "sector": "Turismo"
+  },
+  {
+    "id": 6,
+    "address": "Jr. Santa Rosa 998",
+    "district": "Trujillo",
+    "province": "Trujillo",
+    "department": "La Libertad",
+    "sector": "Agricultura"
+  },
+  {
+    "id": 7,
+    "address": "Av. Industrial 202",
+    "district": "Villa El Salvador",
+    "province": "Lima",
+    "department": "Lima",
+    "sector": "Industria"
+  },
+  {
+    "id": 8,
+    "address": "Calle Comercio 304",
+    "district": "Puno",
+    "province": "Puno",
+    "department": "Puno",
+    "sector": "Ganadería"
+  },
+  {
+    "id": 9,
+    "address": "Av. El Sol 567",
+    "district": "Cusco",
+    "province": "Cusco",
+    "department": "Cusco",
+    "sector": "Turismo"
+  },
+  {
+    "id": 10,
+    "address": "Jr. Los Incas 785",
+    "district": "San Juan de Lurigancho",
+    "province": "Lima",
+    "department": "Lima",
+    "sector": "Tecnología"
+  },
+  {
+    "id": 11,
+    "address": "Calle Real 132",
+    "district": "Huancayo",
+    "province": "Huancayo",
+    "department": "Junín",
+    "sector": "Educación"
+  },
+  {
+    "id": 12,
+    "address": "Av. Brasil 256",
+    "district": "Jesús María",
+    "province": "Lima",
+    "department": "Lima",
+    "sector": "Salud"
+  },
+  {
+    "id": 13,
+    "address": "Jr. San Martín 333",
+    "district": "Piura",
+    "province": "Piura",
+    "department": "Piura",
+    "sector": "Pesca"
+  },
+  {
+    "id": 14,
+    "address": "Av. Arequipa 1212",
+    "district": "Lince",
+    "province": "Lima",
+    "department": "Lima",
+    "sector": "Servicios"
+  },
+  {
+    "id": 15,
+    "address": "Pasaje Las Gardenias 654",
+    "district": "Tacna",
+    "province": "Tacna",
+    "department": "Tacna",
+    "sector": "Comercio"
+  }
+]

@@ -1,0 +1,9 @@
+@baseUrl = http://localhost:3000/addresses
+@session = mysession=MTc0OTMyNjc1M3xEWDhFQVFMX2dBQUJFQUVRQUFBb180QUFBUVp6ZEhKcGJtY01DQUFHYzNSaGRIVnpCbk4wY21sdVp3d0tBQWhoWTNScGRtRjBaUT09fDEwMNRr-eTvIKdIDTSfFrm61NAAZ06WflPGf2t7gHIC
+@token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJhZG1pbjEiLCJpYXQiOjE3NTI3MzY4MzksImV4cCI6MTc1Mjc0MDQzOX0.pDhMKAxo1PkKuPv9AAr-CjaH9Hw4ECTSe6rTTsd3_k4
+
+### ✅ Obtener la dirección asociada a una empresa
+GET {{baseUrl}}/company/1
+Content-Type: application/json
+Cookie: {{session}}
+Authorization: Bearer {{token}}

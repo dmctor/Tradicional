@@ -1,0 +1,28 @@
+@baseUrl = http://localhost:3000
+@session = mysession=MTc0OTMyNjc1M3xEWDhFQVFMX2dBQUJFQUVRQUFBb180QUFBUVp6ZEhKcGJtY01DQUFHYzNSaGRIVnpCbk4wY21sdVp3d0tBQWhoWTNScGRtRjBaUT09fDEwMNRr-eTvIKdIDTSfFrm61NAAZ06WflPGf2t7gHIC
+@token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJhZG1pbjEiLCJpYXQiOjE3NTI3MzY4MzksImV4cCI6MTc1Mjc0MDQzOX0.pDhMKAxo1PkKuPv9AAr-CjaH9Hw4ECTSe6rTTsd3_k4
+
+### Crear un nuevo servicio ISP (CU10.3)
+POST {{baseUrl}}/ispServices
+Content-Type: application/json
+Cookie: {{session}}
+Authorization: Bearer {{token}}
+
+{
+  "isp_id": 1,
+  "provider_id": 3,
+  "description": "Fibra óptica premium 500Mbps",
+  "cost": 199.90,
+  "pay_code": "NEW001"
+}
+
+### Obtener todos los servicios ISP
+GET {{baseUrl}}/ispServices
+Cookie: {{session}}
+Authorization: Bearer {{token}}
+
+### Obtener un servicio ISP por ID
+GET {{baseUrl}}/ispServices/1
+Cookie: {{session}}
+Authorization: Bearer {{token}}
+

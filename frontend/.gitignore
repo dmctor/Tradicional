@@ -1,0 +1,27 @@
+# Dart & Flutter
+.dart_tool/
+.packages
+build/
+.pub/
+.flutter-plugins
+.flutter-plugins-dependencies
+.melos_tool/
+.env
+
+# Gradle
+.gradle/
+android/.gradle/
+**/build/
+android/local.properties
+android/app/.cxx/Debug
+
+# VS Code
+.vscode/
+
+# IntelliJ
+.idea/
+*.iml
+
+# Otros
+*.log
+

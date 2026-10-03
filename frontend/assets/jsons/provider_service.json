@@ -1,0 +1,72 @@
+[
+  {
+    "id": 1,
+    "dependency_id": 1,
+    "provider_id": 1,
+    "description": "Servicio de mantenimiento de servidores",
+    "price": 250.00
+  },
+  {
+    "id": 2,
+    "dependency_id": 2,
+    "provider_id": 2,
+    "description": "Consultoría en ciberseguridad",
+    "price": 500.50
+  },
+  {
+    "id": 3,
+    "dependency_id": 3,
+    "provider_id": 3,
+    "description": "Desarrollo de aplicación móvil",
+    "price": 1200.00
+  },
+  {
+    "id": 4,
+    "dependency_id": 4,
+    "provider_id": 1,
+    "description": "Soporte técnico mensual",
+    "price": 300.00
+  },
+  {
+    "id": 5,
+    "dependency_id": 5,
+    "provider_id": 2,
+    "description": "Diseño y desarrollo web",
+    "price": 950.75
+  },
+  {
+    "id": 6,
+    "dependency_id": 6,
+    "provider_id": 3,
+    "description": "Instalación de redes LAN",
+    "price": 430.00
+  },
+  {
+    "id": 7,
+    "dependency_id": 7,
+    "provider_id": 1,
+    "description": "Auditoría de sistemas",
+    "price": 670.20
+  },
+  {
+    "id": 8,
+    "dependency_id": 8,
+    "provider_id": 2,
+    "description": "Capacitación en herramientas ofimáticas",
+    "price": 220.00
+  },
+  {
+    "id": 9,
+    "dependency_id": 9,
+    "provider_id": 3,
+    "description": "Licenciamiento de software",
+    "price": 800.00
+  },
+  {
+    "id": 10,
+    "dependency_id": 10,
+    "provider_id": 1,
+    "description": "Consultoría en transformación digital",
+    "price": 1500.00
+  }
+]

@@ -1,0 +1,25 @@
+@startuml
+
+actor Usuario
+box "Quiz App" #LightBlue
+    participant "Home Page" as HPage
+    participant "Home Controller" as HControl
+    participant "Quiz Service" as SQuiz
+    participant "Quiz" as Quiz
+end box
+participant "API Backend" as API
+participant "API DB" as DB
+
+Usuario -> HPage : Cargar página
+HPage -> HControl : fetchAll()
+HControl -> SQuiz : fetchAll()
+SQuiz --> SQuiz : Leer JSON
+SQuiz --> Quiz : Intanciar lista de Quiz
+Quiz --> SQuiz : List<Quiz>
+SQuiz --> HControl : ServiceHttpResponse(List<Quiz>, code)
+HControl --> HControl : Extraer quizzes List<Quiz>
+HControl --> HPage: Mostar lista de quizzes 
+
+App -> App : Actualiza UI con datos
+
+@enduml

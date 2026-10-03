@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "ruc": "20123456789",
+    "name": "Proveedor Alpha SAC",
+    "logo": "alpha_logo.png"
+  },
+  {
+    "id": 2,
+    "ruc": "20456789012",
+    "name": "Proveedor Beta EIRL",
+    "logo": "beta_logo.png"
+  },
+  {
+    "id": 3,
+    "ruc": "20678901234",
+    "name": "Proveedor Gamma SRL",
+    "logo": "gamma_logo.png"
+  },
+  {
+    "id": 4,
+    "ruc": "20890123456",
+    "name": "Proveedor Delta SAC",
+    "logo": "delta_logo.png"
+  },
+  {
+    "id": 5,
+    "ruc": "20987654321",
+    "name": "Proveedor Epsilon S.A.",
+    "logo": "epsilon_logo.png"
+  },
+  {
+    "id": 6,
+    "ruc": "20765432109",
+    "name": "Proveedor Zeta SAC",
+    "logo": "zeta_logo.png"
+  },
+  {
+    "id": 7,
+    "ruc": "20543210987",
+    "name": "Proveedor Eta SAC",
+    "logo": "eta_logo.png"
+  },
+  {
+    "id": 8,
+    "ruc": "20321098765",
+    "name": "Proveedor Theta SAC",
+    "logo": "theta_logo.png"
+  },
+  {
+    "id": 9,
+    "ruc": "20210987654",
+    "name": "Proveedor Iota SAC",
+    "logo": "iota_logo.png"
+  },
+  {
+    "id": 10,
+    "ruc": "20109876543",
+    "name": "Proveedor Kappa SAC",
+    "logo": "kappa_logo.png"
+  }
+]

@@ -1,0 +1,223 @@
+[
+        {
+            "id": 1,
+            "company_id": 9,
+            "provider_id": 7,
+            "name": "Sede Central Lima",
+            "sign_date": "2022-07-23",
+            "validity_time": "5 años",
+            "termination_date": "2026-11-03",
+            "anniversary": "06-02",
+            "equipment": "3 routers Marca Tplink modelo Archer C62 AC1200, Switch administrable Tplink 48 puertos PoE"
+        },
+        {
+            "id": 2,
+            "company_id": 9,
+            "provider_id": 5,
+            "name": "Sucursal Arequipa",
+            "sign_date": "2024-03-21",
+            "validity_time": "5 años",
+            "termination_date": "2025-11-26",
+            "anniversary": "11-18",
+            "equipment": "1 Access Point Ubiquiti UniFi 6, Router MikroTik hAP ac²"
+        },
+        {
+            "id": 3,
+            "company_id": 2,
+            "provider_id": 2,
+            "name": "Oficina Trujillo",
+            "sign_date": "2024-06-18",
+            "validity_time": "1 años",
+            "termination_date": "2027-04-15",
+            "anniversary": "02-09",
+            "equipment": "2 routers Cisco RV340, Switch D-Link 24 puertos PoE"
+        },
+        {
+            "id": 4,
+            "company_id": 1,
+            "provider_id": 9,
+            "name": "Centro Piura",
+            "sign_date": "2023-04-20",
+            "validity_time": "3 años",
+            "termination_date": "2028-01-30",
+            "anniversary": "03-22",
+            "equipment": "1 Access Point Ubiquiti UniFi 6, Router MikroTik hAP ac²"
+        },
+        {
+            "id": 5,
+            "company_id": 1,
+            "provider_id": 9,
+            "name": "Sede Cusco",
+            "sign_date": "2023-01-01",
+            "validity_time": "5 años",
+            "termination_date": "2025-09-25",
+            "anniversary": "02-19",
+            "equipment": "4 routers Tenda AC10U, Switch administrable TP-Link 16 puertos"
+        },
+        {
+            "id": 6,
+            "company_id": 1,
+            "provider_id": 10,
+            "name": "Oficina Iquitos",
+            "sign_date": "2023-11-04",
+            "validity_time": "2 años",
+            "termination_date": "2028-03-21",
+            "anniversary": "02-12",
+            "equipment": "4 routers Tenda AC10U, Switch administrable TP-Link 16 puertos"
+        },
+        {
+            "id": 7,
+            "company_id": 7,
+            "provider_id": 2,
+            "name": "Sucursal Chiclayo",
+            "sign_date": "2024-11-29",
+            "validity_time": "5 años",
+            "termination_date": "2027-10-03",
+            "anniversary": "09-27",
+            "equipment": "2 routers Huawei AX3 Quad-core, Switch Netgear ProSAFE 24 puertos"
+        },
+        {
+            "id": 8,
+            "company_id": 8,
+            "provider_id": 5,
+            "name": "Base Tacna",
+            "sign_date": "2023-08-20",
+            "validity_time": "4 años",
+            "termination_date": "2027-12-10",
+            "anniversary": "10-03",
+            "equipment": "2 routers Huawei AX3 Quad-core, Switch Netgear ProSAFE 24 puertos"
+        },
+        {
+            "id": 9,
+            "company_id": 1,
+            "provider_id": 6,
+            "name": "Oficina Puno",
+            "sign_date": "2024-12-16",
+            "validity_time": "5 años",
+            "termination_date": "2026-08-20",
+            "anniversary": "06-12",
+            "equipment": "2 routers Cisco RV340, Switch D-Link 24 puertos PoE"
+        },
+        {
+            "id": 10,
+            "company_id": 5,
+            "provider_id": 3,
+            "name": "Sede Callao",
+            "sign_date": "2023-08-26",
+            "validity_time": "5 años",
+            "termination_date": "2026-07-02",
+            "anniversary": "04-22",
+            "equipment": "2 routers Cisco RV340, Switch D-Link 24 puertos PoE"
+        },
+        {
+            "id": 11,
+            "company_id": 7,
+            "provider_id": 4,
+            "name": "Sucursal Huancayo",
+            "sign_date": "2023-10-22",
+            "validity_time": "3 años",
+            "termination_date": "2026-06-26",
+            "anniversary": "05-27",
+            "equipment": "2 routers Huawei AX3 Quad-core, Switch Netgear ProSAFE 24 puertos"
+        },
+        {
+            "id": 12,
+            "company_id": 4,
+            "provider_id": 5,
+            "name": "Oficina Juliaca",
+            "sign_date": "2023-03-07",
+            "validity_time": "3 años",
+            "termination_date": "2026-09-29",
+            "anniversary": "05-30",
+            "equipment": "2 routers Cisco RV340, Switch D-Link 24 puertos PoE"
+        },
+        {
+            "id": 13,
+            "company_id": 5,
+            "provider_id": 6,
+            "name": "Centro Tumbes",
+            "sign_date": "2025-01-18",
+            "validity_time": "4 años",
+            "termination_date": "2025-08-09",
+            "anniversary": "05-14",
+            "equipment": "1 Access Point Ubiquiti UniFi 6, Router MikroTik hAP ac²"
+        },
+        {
+            "id": 14,
+            "company_id": 6,
+            "provider_id": 1,
+            "name": "Sede Ica",
+            "sign_date": "2022-12-17",
+            "validity_time": "4 años",
+            "termination_date": "2027-03-20",
+            "anniversary": "05-24",
+            "equipment": "2 routers Huawei AX3 Quad-core, Switch Netgear ProSAFE 24 puertos"
+        },
+        {
+            "id": 15,
+            "company_id": 6,
+            "provider_id": 8,
+            "name": "Sucursal Ayacucho",
+            "sign_date": "2023-12-31",
+            "validity_time": "4 años",
+            "termination_date": "2027-04-01",
+            "anniversary": "01-02",
+            "equipment": "2 routers Huawei AX3 Quad-core, Switch Netgear ProSAFE 24 puertos"
+        },
+        {
+            "id": 16,
+            "company_id": 3,
+            "provider_id": 8,
+            "name": "Base Cajamarca",
+            "sign_date": "2023-10-20",
+            "validity_time": "4 años",
+            "termination_date": "2027-02-24",
+            "anniversary": "11-19",
+            "equipment": "1 Access Point Ubiquiti UniFi 6, Router MikroTik hAP ac²"
+        },
+        {
+            "id": 17,
+            "company_id": 1,
+            "provider_id": 6,
+            "name": "Oficina Tarapoto",
+            "sign_date": "2023-05-22",
+            "validity_time": "3 años",
+            "termination_date": "2027-09-25",
+            "anniversary": "03-31",
+            "equipment": "3 routers Marca Tplink modelo Archer C62 AC1200, Switch administrable Tplink 48 puertos PoE"
+        },
+        {
+            "id": 18,
+            "company_id": 7,
+            "provider_id": 4,
+            "name": "Sede Huaraz",
+            "sign_date": "2023-05-22",
+            "validity_time": "2 años",
+            "termination_date": "2025-11-24",
+            "anniversary": "09-02",
+            "equipment": "1 Access Point Ubiquiti UniFi 6, Router MikroTik hAP ac²"
+        },
+        {
+            "id": 19,
+            "company_id": 8,
+            "provider_id": 1,
+            "name": "Sucursal Moquegua",
+            "sign_date": "2024-09-05",
+            "validity_time": "5 años",
+            "termination_date": "2025-07-13",
+            "anniversary": "04-30",
+            "equipment": "2 routers Huawei AX3 Quad-core, Switch Netgear ProSAFE 24 puertos"
+        },
+        {
+            "id": 20,
+            "company_id": 10,
+            "provider_id": 5,
+            "name": "Centro Chimbote",
+            "sign_date": "2024-05-05",
+            "validity_time": "1 años",
+            "termination_date": "2027-11-23",
+            "anniversary": "05-11",
+            "equipment": "4 routers Tenda AC10U, Switch administrable TP-Link 16 puertos"
+        }
+]
+  

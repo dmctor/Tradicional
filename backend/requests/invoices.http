@@ -1,0 +1,127 @@
+@baseUrl = http://localhost:3000
+@session = mysession=MTc0OTMyNjc1M3xEWDhFQVFMX2dBQUJFQUVRQUFBb180QUFBUVp6ZEhKcGJtY01DQUFHYzNSaGRIVnpCbk4wY21sdVp3d0tBQWhoWTNScGRtRjBaUT09fDEwMNRr-eTvIKdIDTSfFrm61NAAZ06WflPGf2t7gHIC
+
+@token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJhZG1pbjEiLCJpYXQiOjE3NTI3MzY4MzksImV4cCI6MTc1Mjc0MDQzOX0.pDhMKAxo1PkKuPv9AAr-CjaH9Hw4ECTSe6rTTsd3_k4
+
+### Obtener facturas de ISP (Status 200)
+POST {{baseUrl}}/invoices/isp
+Content-Type: application/json
+Cookie: {{session}}
+
+{
+  "ispServices": [
+    { "id": 1 },
+    { "id": 3 }
+  ]
+}
+
+### Obtener facturas de ISP (Status 400)
+POST {{baseUrl}}/invoices/isp
+Content-Type: application/json
+Cookie: {{session}}
+
+{
+  "ispServices": []
+}
+
+### Obtener facturas de ISP (Status 404)
+POST {{baseUrl}}/invoices/isp
+Content-Type: application/json
+Cookie: {{session}}
+
+{
+  "ispServices": [
+    { "id": 999 },
+    { "id": 1000 }
+  ]
+}
+
+### Obtener facturas de Proveedor (Status 200)
+POST {{baseUrl}}/invoices/provider
+Content-Type: application/json
+Cookie: {{session}}
+
+{
+  "providerServices": [
+    { "id": 2 },
+    { "id": 4 }
+  ]
+}
+
+### Obtener facturas de Proveedor (Status 400)
+POST {{baseUrl}}/invoices/provider
+Content-Type: application/json
+Cookie: {{session}}
+
+{
+  "providerServices": []
+}
+
+### Obtener facturas de Proveedor (Status 404)
+POST {{baseUrl}}/invoices/provider
+Content-Type: application/json
+Cookie: {{session}}
+
+{
+  "providerServices": [
+    { "id": 999 },
+    { "id": 1000 }
+  ]
+}
+
+### Marcar una factura como facturada (Status 200)
+POST {{baseUrl}}/invoices/invoice
+Content-Type: application/json
+Cookie: {{session}}
+
+{
+  "invoice": {
+    "id": 1
+  }
+}
+
+### Marcar una factura como facturada (Status 404)
+POST {{baseUrl}}/invoices/invoice
+Content-Type: application/json
+Cookie: {{session}}
+
+{
+  "invoice": {
+    "id": 999
+  }
+}
+
+### Error al obtener facturas de ISP (Status 500) - throw new Error("Forzado error en la base de datos");
+POST {{baseUrl}}/invoices/isp
+Content-Type: application/json
+Cookie: {{session}}
+
+{
+  "ispServices": [
+    { "id": 1 },
+    { "id": 3 }
+  ]
+}
+
+### Error al obtener facturas de Proveedor (Status 500) - throw new Error("Forzado error en la base de datos");
+POST {{baseUrl}}/invoices/provider
+Content-Type: application/json
+Cookie: {{session}}
+
+{
+  "providerServices": [
+    { "id": 2 },
+    { "id": 4 }
+  ]
+}
+
+### Error al marcar una factura como facturada (Status 500) - throw new Error("Forzado error en la base de datos");
+POST {{baseUrl}}/invoices/invoice
+Content-Type: application/json
+Cookie: {{session}}
+
+{
+  "invoice": {
+    "id": 4
+  }
+}

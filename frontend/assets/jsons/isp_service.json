@@ -1,0 +1,14 @@
+
+[
+  { "id": 1, "isp_id": 1, "provider_id": 1, "description": "Internet 100 Mbps", "cost": 89.90, "pay_code": "CL001" },
+  { "id": 2, "isp_id": 2, "provider_id": 2, "description": "Internet 200 Mbps", "cost": 120.50, "pay_code": "MV002" },
+  { "id": 3, "isp_id": 3, "provider_id": 3, "description": "Fibra 300 Mbps", "cost": 150.00, "pay_code": "EN003" },
+  { "id": 4, "isp_id": 4, "provider_id": 4, "description": "Plan Gamer 150 Mbps", "cost": 99.99, "pay_code": "BT004" },
+  { "id": 5, "isp_id": 5, "provider_id": 5, "description": "Internet Básico 50 Mbps", "cost": 70.00, "pay_code": "FN005" },
+  { "id": 6, "isp_id": 6, "provider_id": 6, "description": "Plan Hogar 200 Mbps", "cost": 110.00, "pay_code": "NL006" },
+  { "id": 7, "isp_id": 7, "provider_id": 7, "description": "Plan PyME 500 Mbps", "cost": 199.00, "pay_code": "SP007" },
+  { "id": 8, "isp_id": 8, "provider_id": 8, "description": "Fibra 1000 Mbps", "cost": 299.99, "pay_code": "IN008" },
+  { "id": 9, "isp_id": 9, "provider_id": 9, "description": "TV + Internet 100 Mbps", "cost": 139.50, "pay_code": "MC009" },
+  { "id": 10, "isp_id": 10, "provider_id": 10, "description": "Internet Prepago 20 Mbps", "cost": 45.00, "pay_code": "IY010" }
+]
+

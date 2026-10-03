@@ -1,0 +1,92 @@
+[
+  {
+    "id": 1,
+    "address_id": 1,
+    "ruc": "20123456789",
+    "name": "Empresa Educativa S.A.C."
+  },
+  {
+    "id": 2,
+    "address_id": 2,
+    "ruc": "20234567890",
+    "name": "Centro Médico Integral"
+  },
+  {
+    "id": 3,
+    "address_id": 3,
+    "ruc": "20345678901",
+    "name": "Supermercados El Ahorro"
+  },
+  {
+    "id": 4,
+    "address_id": 4,
+    "ruc": "20456789012",
+    "name": "Transporte Nacional S.R.L."
+  },
+  {
+    "id": 5,
+    "address_id": 5,
+    "ruc": "20567890123",
+    "name": "Agencia de Turismo Perú"
+  },
+  {
+    "id": 6,
+    "address_id": 6,
+    "ruc": "20678901234",
+    "name": "Granja Los Andes"
+  },
+  {
+    "id": 7,
+    "address_id": 7,
+    "ruc": "20789012345",
+    "name": "Industria Textil Andina"
+  },
+  {
+    "id": 8,
+    "address_id": 8,
+    "ruc": "20890123456",
+    "name": "Ganadería del Sur"
+  },
+  {
+    "id": 9,
+    "address_id": 9,
+    "ruc": "20901234567",
+    "name": "Cusco Travel Group"
+  },
+  {
+    "id": 10,
+    "address_id": 10,
+    "ruc": "21012345678",
+    "name": "Soluciones Digitales S.A.C."
+  },
+  {
+    "id": 11,
+    "address_id": 11,
+    "ruc": "21123456789",
+    "name": "Instituto de Educación Junín"
+  },
+  {
+    "id": 12,
+    "address_id": 12,
+    "ruc": "21234567890",
+    "name": "Clínica Santa Fe"
+  },
+  {
+    "id": 13,
+    "address_id": 13,
+    "ruc": "21345678901",
+    "name": "Exportadora Marina S.A."
+  },
+  {
+    "id": 14,
+    "address_id": 14,
+    "ruc": "21456789012",
+    "name": "Servicios Generales Lima"
+  },
+  {
+    "id": 15,
+    "address_id": 15,
+    "ruc": "21567890123",
+    "name": "Comercializadora Tacna"
+  }
+]

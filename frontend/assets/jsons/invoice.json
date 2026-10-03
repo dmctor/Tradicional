@@ -1,0 +1,102 @@
+[
+  {
+    "id": 1,
+    "invoice_number": "E001-000586",
+    "service_type": "Proveedor",
+    "service_id": 1,
+    "invoice_month": 2,
+    "invoiced": false,
+    "issue_date": "2025-03-07T00:00:00.000Z",
+    "due_date": "2025-03-31T00:00:00.000Z"
+  },
+  {
+    "id": 2,
+    "invoice_number": "F001-00008976",
+    "service_type": "ISP",
+    "service_id": 4,
+    "invoice_month": 2,
+    "invoiced": true,
+    "issue_date": "2025-02-01T00:00:00.000Z",
+    "due_date": "2025-02-25T00:00:00.000Z"
+  },
+  {
+    "id": 3,
+    "invoice_number": "E001-000587",
+    "service_type": "Proveedor",
+    "service_id": 10,
+    "invoice_month": 3,
+    "invoiced": true,
+    "issue_date": "2025-04-01T00:00:00.000Z",
+    "due_date": "2025-04-28T00:00:00.000Z"
+  },
+  {
+    "id": 4,
+    "invoice_number": "F001-00008977",
+    "service_type": "ISP",
+    "service_id": 3,
+    "invoice_month": 3,
+    "invoiced": false,
+    "issue_date": "2025-03-05T00:00:00.000Z",
+    "due_date": "2025-03-25T00:00:00.000Z"
+  },
+  {
+    "id": 5,
+    "invoice_number": "E001-000588",
+    "service_type": "Proveedor",
+    "service_id": 1,
+    "invoice_month": 4,
+    "invoiced": true,
+    "issue_date": "2025-05-02T00:00:00.000Z",
+    "due_date": "2025-05-30T00:00:00.000Z"
+  },
+  {
+    "id": 6,
+    "invoice_number": "F001-00008978",
+    "service_type": "ISP",
+    "service_id": 4,
+    "invoice_month": 4,
+    "invoiced": false,
+    "issue_date": "2025-04-01T00:00:00.000Z",
+    "due_date": "2025-04-29T00:00:00.000Z"
+  },
+  {
+    "id": 7,
+    "invoice_number": "E001-000589",
+    "service_type": "Proveedor",
+    "service_id": 2,
+    "invoice_month": 5,
+    "invoiced": false,
+    "issue_date": "2025-06-01T00:00:00.000Z",
+    "due_date": "2025-06-30T00:00:00.000Z"
+  },
+  {
+    "id": 8,
+    "invoice_number": "F001-00008979",
+    "service_type": "ISP",
+    "service_id": 3,
+    "invoice_month": 5,
+    "invoiced": true,
+    "issue_date": "2025-05-01T00:00:00.000Z",
+    "due_date": "2025-05-28T00:00:00.000Z"
+  },
+  {
+    "id": 9,
+    "invoice_number": "E001-000590",
+    "service_type": "Proveedor",
+    "service_id": 3,
+    "invoice_month": 6,
+    "invoiced": true,
+    "issue_date": "2025-07-01T00:00:00.000Z",
+    "due_date": "2025-07-25T00:00:00.000Z"
+  },
+  {
+    "id": 10,
+    "invoice_number": "F001-00008980",
+    "service_type": "ISP",
+    "service_id": 1,
+    "invoice_month": 6,
+    "invoiced": false,
+    "issue_date": "2025-06-01T00:00:00.000Z",
+    "due_date": "2025-06-26T00:00:00.000Z"
+  }
+]

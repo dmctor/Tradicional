@@ -1,0 +1,74 @@
+@baseUrl = http://localhost:3000
+@session = mysession=MTc0OTMyNjc1M3xEWDhFQVFMX2dBQUJFQUVRQUFBb180QUFBUVp6ZEhKcGJtY01DQUFHYzNSaGRIVnpCbk4wY21sdVp3d0tBQWhoWTNScGRtRjBaUT09fDEwMNRr-eTvIKdIDTSfFrm61NAAZ06WflPGf2t7gHIC
+
+@token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJhZG1pbjEiLCJpYXQiOjE3NTI3MzY4MzksImV4cCI6MTc1Mjc0MDQzOX0.pDhMKAxo1PkKuPv9AAr-CjaH9Hw4ECTSe6rTTsd3_k4
+
+### Obtener servicios por proveedor (Status 200)
+POST {{baseUrl}}/providerServices/by-provider
+Content-Type: application/json
+Cookie: {{session}}
+Authorization: Bearer {{token}}
+
+{
+  "providerId": 1
+}
+
+### Obtener servicios por proveedor (Status 404) - No se encuentran servicios
+POST {{baseUrl}}/providerServices/by-provider
+Content-Type: application/json
+Cookie: {{session}}
+Authorization: Bearer {{token}}
+
+{
+  "providerId": 999
+}
+
+
+### Crear un nuevo servicio (Status 201)
+POST {{baseUrl}}/providerServices/create
+Content-Type: application/json
+Cookie: {{session}}
+Authorization: Bearer {{token}}
+
+{
+  "description": "Nuevo servicio de soporte técnico",
+  "dependencyId": 1,
+  "providerId": 1,
+  "price": 150.00
+}
+
+### Crear un servicio que ya existe (Status 409)
+POST {{baseUrl}}/providerServices/create
+Content-Type: application/json
+Cookie: {{session}}
+Authorization: Bearer {{token}}
+
+{
+  "description": "Nuevo servicio de soporte técnico",
+  "dependencyId": 1,
+  "providerId": 1,
+  "price": 150.00
+}
+
+### Error al obtener servicios por proveedor (Status 500) - throw new Error("Forzado error en la base de datos");
+POST {{baseUrl}}/providerServices/by-provider
+Content-Type: application/json
+Cookie: {{session}}
+Authorization: Bearer {{token}}
+
+{
+  "providerId": 1
+}
+
+### Crear un nuevo servicio (Status 500) - throw new Error("Forzado error en la base de datos");
+POST {{baseUrl}}/providerServices/create
+Content-Type: application/json
+Cookie: {{session}}
+Authorization: Bearer {{token}}
+
+{
+  "description": "Servicio de mantenimiento en línea",
+  "dependencyId": 1,
+  "providerId": 1,
+  "price": "700.00" 
+}

@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "username": "admin1",
+    "password": "adminpass1",
+    "listProvider": [2, 5, 9]
+  },
+  {
+    "id": 2,
+    "username": "admin2",
+    "password": "adminpass2",
+    "listProvider": [1, 4, 7]
+  },
+  {
+    "id": 3,
+    "username": "admin3",
+    "password": "adminpass3",
+    "listProvider": [3, 6]
+  },
+  {
+    "id": 4,
+    "username": "admin4",
+    "password": "adminpass4",
+    "listProvider": [2, 8]
+  },
+  {
+    "id": 5,
+    "username": "admin5",
+    "password": "adminpass5",
+    "listProvider": [1, 5, 10]
+  },
+  {
+    "id": 6,
+    "username": "admin6",
+    "password": "adminpass6",
+    "listProvider": [6, 9]
+  },
+  {
+    "id": 7,
+    "username": "admin7",
+    "password": "adminpass7",
+    "listProvider": [3, 4, 7]
+  },
+  {
+    "id": 8,
+    "username": "admin8",
+    "password": "adminpass8",
+    "listProvider": [8]
+  },
+  {
+    "id": 9,
+    "username": "admin9",
+    "password": "adminpass9",
+    "listProvider": [5, 7, 10]
+  },
+  {
+    "id": 10,
+    "username": "admin10",
+    "password": "adminpass10",
+    "listProvider": [1, 3]
+  }
+]

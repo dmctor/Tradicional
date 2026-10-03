@@ -1,0 +1,12 @@
+[
+  { "id": 1, "ruc": "20123456789", "name": "Claro Perú"},
+  { "id": 2, "ruc": "20456789012", "name": "Movistar"},
+  { "id": 3, "ruc": "20567890123", "name": "Entel"},
+  { "id": 4, "ruc": "20678901234", "name": "Bitel"},
+  { "id": 5, "ruc": "20789012345", "name": "FiberNet"},
+  { "id": 6, "ruc": "20890123456", "name": "Netline"},
+  { "id": 7, "ruc": "20901234567", "name": "SpeedyNet"},
+  { "id": 8, "ruc": "20111234567", "name": "Infinitum"},
+  { "id": 9, "ruc": "20222345678", "name": "MegaCable"},
+  { "id": 10, "ruc": "20333456789", "name": "InternetYa"}
+]

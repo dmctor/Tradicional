@@ -1,0 +1,24 @@
+@baseUrl = http://localhost:3000
+@session = mysession=MTc0OTMyNjc1M3xEWDhFQVFMX2dBQUJFQUVRQUFBb180QUFBUVp6ZEhKcGJtY01DQUFHYzNSaGRIVnpCbk4wY21sdVp3d0tBQWhoWTNScGRtRjBaUT09fDEwMNRr-eTvIKdIDTSfFrm61NAAZ06WflPGf2t7gHIC
+
+@token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJhZG1pbjEiLCJpYXQiOjE3NTI3MzY4MzksImV4cCI6MTc1Mjc0MDQzOX0.pDhMKAxo1PkKuPv9AAr-CjaH9Hw4ECTSe6rTTsd3_k4
+
+### ✅ GET: Todos los contactos
+GET {{baseUrl}}/contacts
+Cookie: {{session}}
+Authorization: Bearer {{token}}
+
+### ✅ GET: Contacto por ID (ej. ID 1)
+GET {{baseUrl}}/contacts/1
+Cookie: {{session}}
+Authorization: Bearer {{token}}
+
+### ✅ GET: Contactos por dependencia (ej. ID 1)
+GET {{baseUrl}}/contacts/dependency/3
+Cookie: {{session}}
+Authorization: Bearer {{token}}
+
+
+
+
+
