@@ -1,0 +1,22 @@
+# --- Secretos y datos: NO deben estar en un repositorio publico -------------
+backend/.env
+backend/.env.*
+backend/db/*.db
+backend/db/*.sqlite
+backend/db/*.sqlite3
+**/node_modules/
+
+# --- Flutter ----------------------------------------------------------------
+frontend/.dart_tool/
+frontend/build/
+frontend/.flutter-plugins
+frontend/.flutter-plugins-dependencies
+frontend/.packages
+frontend/ios/Pods/
+frontend/android/.gradle/
+frontend/android/local.properties
+
+# --- Sistema ----------------------------------------------------------------
+.DS_Store
+Thumbs.db
+*.log
